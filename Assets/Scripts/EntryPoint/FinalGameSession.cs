@@ -25,6 +25,19 @@ public class FinalGameSession : MonoBehaviour
         Time.timeScale = 0f; // ввести переменные
     }
 
+    public void DeactivateFinalPanelAndResumeGame()
+    {
+        if (_finalMatchPanel == null)
+        {
+            Debug.LogError("FinalMatchPanel is not assigned in the inspector!", this);
+
+            return;
+        }
+
+        _finalMatchPanel.Close();
+        Time.timeScale = 1f;
+    }
+
     private void IncreaseRound()
     {
         CurrentRound++;

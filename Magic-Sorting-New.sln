@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{53D41B02-B1CB-4FD1-9ED1-AC2A2CED0EBC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject", "Zenject.csproj", "{8B4AA720-6E76-189E-D3D7-35D66F4C2066}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A005B1B4-E830-AB3E-0052-AE9AD3F896C4}"
@@ -41,10 +39,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53D41B02-B1CB-4FD1-9ED1-AC2A2CED0EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53D41B02-B1CB-4FD1-9ED1-AC2A2CED0EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53D41B02-B1CB-4FD1-9ED1-AC2A2CED0EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53D41B02-B1CB-4FD1-9ED1-AC2A2CED0EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B4AA720-6E76-189E-D3D7-35D66F4C2066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B4AA720-6E76-189E-D3D7-35D66F4C2066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B4AA720-6E76-189E-D3D7-35D66F4C2066}.Release|Any CPU.ActiveCfg = Release|Any CPU
