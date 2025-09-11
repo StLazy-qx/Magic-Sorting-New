@@ -1,36 +1,43 @@
-using UnityEngine;
-using UnityEngine.UI;
-
-public class ButtonNewRoundBeginner : MonoBehaviour
+public class ButtonNewRoundBeginner : BaseMenuButton
 {
-    [SerializeField] private GameHandler _gameHandler;
-    [SerializeField] private Panel _currentPanel;
-    [SerializeField] private Panel _targetPanel;
-    [SerializeField] private Button _button;
-
-    private void OnEnable()
+    protected override void OnButtonClick()
     {
-        if (_button != null)
+        if (GameHandler != null)
         {
-            _button.onClick.AddListener(OnButtonClick);
+            CurrentPanel?.Close();
+            TargetPanel?.Open();
+            GameHandler.BegintNewRound();
         }
     }
 
-    private void OnDisable()
-    {
-        if (_button != null)
-        {
-            _button.onClick.RemoveListener(OnButtonClick);
-        }
-    }
+    //[SerializeField] private GameHandler _gameHandler;
+    //[SerializeField] private Panel _currentPanel;
+    //[SerializeField] private Panel _targetPanel;
+    //[SerializeField] private Button _button;
 
-    private void OnButtonClick()
-    {
-        if (_gameHandler != null)
-        {
-            _currentPanel.Close();
-            _targetPanel.Open();
-            _gameHandler.BegintNewRound();
-        }
-    }
+    //private void OnEnable()
+    //{
+    //    if (_button != null)
+    //    {
+    //        _button.onClick.AddListener(OnButtonClick);
+    //    }
+    //}
+
+    //private void OnDisable()
+    //{
+    //    if (_button != null)
+    //    {
+    //        _button.onClick.RemoveListener(OnButtonClick);
+    //    }
+    //}
+
+    //private void OnButtonClick()
+    //{
+    //    if (_gameHandler != null)
+    //    {
+    //        _currentPanel.Close();
+    //        _targetPanel.Open();
+    //        _gameHandler.BegintNewRound();
+    //    }
+    //}
 }

@@ -121,6 +121,7 @@
 -define:RU_YG2
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:YandexGamesPlatform_yg
+-define:InterstitialAdv_yg
 -define:CONDITIONAL_IGNORE_SUPPORTED
 -define:TEST_FRAMEWORK_1_1_18_OR_NEWER
 -define:NO_COV_EDITORPREF

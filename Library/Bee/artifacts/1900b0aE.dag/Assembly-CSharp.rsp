@@ -124,6 +124,7 @@
 -define:RU_YG2
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:YandexGamesPlatform_yg
+-define:InterstitialAdv_yg
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
@@ -412,6 +413,16 @@
 "Assets/PluginYourGames/Example/Scripts/Scenes/AllDemoScenes.cs"
 "Assets/PluginYourGames/Example/Scripts/Scenes/DemoSceneLoadButton.cs"
 "Assets/PluginYourGames/Example/Scripts/Scenes/DemoScenePartial.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Example/Scripts/DebugInterstitialAdv.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/AdNotification/AdNotificationYG.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterAdv_info.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterAdv_interface.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterAdv_yandexPlatform.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterAdv_yg.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterstitialAdv_callingSimulation.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterstitialAdv_optionalPlatform.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterstitialAdv_projectSettings.cs"
+"Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/TimerBeforeAds/TimerBeforeAdsYG.cs"
 "Assets/PluginYourGames/Platforms/YandexGames/Scripts/OwnHost/OwnHost.cs"
 "Assets/PluginYourGames/Platforms/YandexGames/Scripts/YandexGamePlatform.cs"
 "Assets/PluginYourGames/Scripts/Basic/CallAction.cs"
@@ -433,6 +444,7 @@
 "Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs"
 "Assets/PluginYourGames/Scripts/EditorScr/Module.cs"
 "Assets/PluginYourGames/Scripts/EditorScr/PluginPrefs.cs"
+"Assets/PluginYourGames/Scripts/EditorScr/PrefsList.cs"
 "Assets/PluginYourGames/Scripts/EditorScr/TextStyles.cs"
 "Assets/PluginYourGames/Scripts/EditorScr/Translates/Langs.cs"
 "Assets/PluginYourGames/Scripts/EditorScr/Translates/VersionControl_lang.cs"
@@ -511,6 +523,7 @@
 "Assets/Scripts/SceneManagement/SceneLoader.cs"
 "Assets/Scripts/Store/IStoreObjectable.cs"
 "Assets/Scripts/Store/Item.cs"
+"Assets/Scripts/UI/BaseMenuButton .cs"
 "Assets/Scripts/UI/ButtonNewRoundBeginner.cs"
 "Assets/Scripts/UI/CanvasMobileSetter.cs"
 "Assets/Scripts/UI/CanvasPCSetter.cs"

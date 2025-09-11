@@ -124,6 +124,7 @@
 -define:RU_YG2
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:YandexGamesPlatform_yg
+-define:InterstitialAdv_yg
 -define:PACKAGE_PHYSICS
 -define:PACKAGE_PHYSICS2D
 -define:PACKAGE_TILEMAP

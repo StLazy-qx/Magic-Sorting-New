@@ -124,6 +124,7 @@
 -define:RU_YG2
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:YandexGamesPlatform_yg
+-define:InterstitialAdv_yg
 -define:TIMELINE_FRAMEACCURATE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER

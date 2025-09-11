@@ -124,6 +124,7 @@
 -define:RU_YG2
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:YandexGamesPlatform_yg
+-define:InterstitialAdv_yg
 -define:ENABLE_VR_MODULE
 -define:ENABLE_XR_MODULE
 -define:CSHARP_7_OR_LATER

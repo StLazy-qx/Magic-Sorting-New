@@ -1,44 +1,45 @@
-using UnityEngine;
-using UnityEngine.UI;
-
-[RequireComponent(typeof(Button))]
-
-public class PanelSwitchButton : MonoBehaviour
+public class PanelSwitchButton : BaseMenuButton
 {
-    [SerializeField] private Panel _targetPanel;
-    [SerializeField] private Panel _currentPanel;
-
-    private Button _button;
-
-    //меню- язык,сложность, магазин, звук
-    //кнопки назад и сокрыть на эскейп обратно в игру любую панель на дефолт
-    //
-
-    private void Awake()
+    protected override void OnButtonClick()
     {
-        _button = GetComponent<Button>();
+        CurrentPanel?.Close();
+        TargetPanel?.Open();
     }
 
-    private void OnEnable()
-    {
-        _button.onClick.AddListener(OnButtonClick);
-    }
+    //[SerializeField] private Panel _targetPanel;
+    //[SerializeField] private Panel _currentPanel;
 
-    private void OnDisable()
-    {
-        _button.onClick.RemoveListener(OnButtonClick);
-    }
+    //private Button _button;
 
-    private void OnButtonClick()
-    {
-        if (_currentPanel != null)
-        {
-            _currentPanel.Close();
-        }
+    ////меню- язык,сложность, магазин, звук
+    ////кнопки назад и сокрыть на эскейп обратно в игру любую панель на дефолт
+    ////
 
-        if (_targetPanel != null)
-        {
-            _targetPanel.Open();
-        }
-    }
+    //private void Awake()
+    //{
+    //    _button = GetComponent<Button>();
+    //}
+
+    //private void OnEnable()
+    //{
+    //    _button.onClick.AddListener(OnButtonClick);
+    //}
+
+    //private void OnDisable()
+    //{
+    //    _button.onClick.RemoveListener(OnButtonClick);
+    //}
+
+    //private void OnButtonClick()
+    //{
+    //    if (_currentPanel != null)
+    //    {
+    //        _currentPanel.Close();
+    //    }
+
+    //    if (_targetPanel != null)
+    //    {
+    //        _targetPanel.Open();
+    //    }
+    //}
 }
