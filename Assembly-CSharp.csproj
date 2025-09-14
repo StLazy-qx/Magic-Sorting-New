@@ -105,6 +105,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Scripts\UI\Pause.cs" />
     <Compile Include="Assets\Scripts\ColorMarker.cs" />
+    <Compile Include="Assets\Scripts\Store\ItemPriceUIText.cs" />
     <Compile Include="Assets\Scripts\IStoreOjectable.cs" />
     <Compile Include="Assets\Scripts\DifficultyDatabase.cs" />
     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
@@ -149,8 +150,8 @@
     <Compile Include="Assets\Scripts\Action\VFXPlayer.cs" />
     <Compile Include="Assets\Scripts\BuildMagicColumn.cs" />
     <Compile Include="Assets\Scripts\ColorRandomizer.cs" />
-    <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
     <Compile Include="Assets\Scripts\UI\StoreUISelector.cs" />
     <Compile Include="Assets\Scripts\VolumeAggregator.cs" />
     <Compile Include="Assets\Scripts\EnumColor.cs" />

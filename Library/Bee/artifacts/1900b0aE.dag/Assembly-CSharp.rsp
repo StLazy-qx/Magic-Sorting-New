@@ -457,6 +457,7 @@
 "Assets/Scripts/SceneManagement/SceneLoader.cs"
 "Assets/Scripts/Store/IStoreObjectable.cs"
 "Assets/Scripts/Store/Item.cs"
+"Assets/Scripts/Store/ItemPriceUIText.cs"
 "Assets/Scripts/UI/BaseMenuButton.cs"
 "Assets/Scripts/UI/ButtonNewRoundBeginner.cs"
 "Assets/Scripts/UI/CanvasMobileSetter.cs"
