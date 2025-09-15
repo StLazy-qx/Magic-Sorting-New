@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638929552709607125
-    m_Hash: 1720599471
+      ticks: 638935162380873354
+    m_Hash: 652188779
   m_LockFileStatus:
     m_FilePath: F:/ST/Unity project/Pyitochnaya/Magic-Sorting-New/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638929552710167636
-    m_Hash: 3448669215
+      ticks: 638935162381282872
+    m_Hash: 2637039636
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -192,12 +192,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.editorcoroutines@1.0.0
+- packageId: com.unity.editorcoroutines@1.0.1
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 1.0.1
   source: 1
-  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.editorcoroutines@1.0.1
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -206,7 +206,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -243,7 +243,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
+  datePublishedTicks: 638929288706330000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -385,15 +385,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.24
+    version: 3.0.37
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
-    version: 1.0.0
+    version: 1.0.1
   - name: com.unity.performance.profile-analyzer
-    version: 1.2.2
+    version: 1.2.3
   - name: com.unity.testtools.codecoverage
-    version: 1.2.4
+    version: 1.2.7
   - name: com.unity.settings-manager
     version: 2.0.1
   keywords: []
@@ -500,12 +500,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.24
+- packageId: com.unity.ide.rider@3.0.37
   testable: 0
   isDirectDependency: 1
-  version: 3.0.24
+  version: 3.0.37
   source: 1
-  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.ide.rider@3.0.24
+  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.ide.rider@3.0.37
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -514,7 +514,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -599,13 +599,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638221653400000000
+  datePublishedTicks: 638929118109900000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f5decc642e3618ce1c6827d47318260e61d64714
+    revision: 39f00cc44029286564f951484a56b488a35df36d
     path: 
   unityLifecycle:
     version: 3.0.24
@@ -777,12 +777,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.performance.profile-analyzer@1.2.2
+- packageId: com.unity.performance.profile-analyzer@1.2.3
   testable: 0
   isDirectDependency: 1
-  version: 1.2.2
+  version: 1.2.3
   source: 1
-  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.3
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -791,7 +791,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: "The Profile Analyzer tool supports the standard Unity Profiler. You
     can use it to analyze multiple frames and multiple data sets of the CPU data
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
@@ -834,13 +834,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638108624620000000
+  datePublishedTicks: 638699545898200000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 2c63f931588caa60a1fef33b1b250b20d952dc58
+    revision: 835e61d94bd201d0dea5763dff75e86b6b61de29
     path: 
   unityLifecycle:
     version: 1.2.2
@@ -1156,12 +1156,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.testtools.codecoverage@1.2.4
+- packageId: com.unity.testtools.codecoverage@1.2.7
   testable: 0
   isDirectDependency: 1
-  version: 1.2.4
+  version: 1.2.7
   source: 1
-  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
+  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.testtools.codecoverage@1.2.7
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -1170,7 +1170,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -1211,11 +1211,13 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     - 1.2.6
+    - 1.2.7
     compatible:
     - 1.2.4
     - 1.2.5
     - 1.2.6
-    recommended: 1.2.6
+    - 1.2.7
+    recommended: 1.2.7
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -1248,13 +1250,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638212235100000000
+  datePublishedTicks: 638932757879800000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: a7dd0751db55cd55e3b336723fb51433c1de7244
+    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
     path: 
   unityLifecycle:
     version: 1.2.4
@@ -1264,12 +1266,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.6
+- packageId: com.unity.textmeshpro@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.9
   source: 1
-  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.textmeshpro@3.0.9
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1278,7 +1280,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1449,13 +1451,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638515173480000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
     path: 
   unityLifecycle:
     version: 3.0.6
@@ -1465,12 +1467,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.5
+- packageId: com.unity.timeline@1.7.7
   testable: 0
   isDirectDependency: 1
-  version: 1.7.5
+  version: 1.7.7
   source: 1
-  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.timeline@1.7.5
+  resolvedPath: F:\ST\Unity project\Pyitochnaya\Magic-Sorting-New\Library\PackageCache\com.unity.timeline@1.7.7
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1479,7 +1481,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 0
@@ -1625,13 +1627,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638229649600000000
+  datePublishedTicks: 638767785867400000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
+    revision: 36c3480685dcb744f098f1a1efe0623247ffab49
     path: 
   unityLifecycle:
     version: 1.7.5
