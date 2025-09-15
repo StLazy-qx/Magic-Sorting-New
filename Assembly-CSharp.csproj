@@ -233,8 +233,8 @@
     <Compile Include="Assets\PluginYourGames\Example\Scripts\CanvasScaleForMobile.cs" />
     <Compile Include="Assets\PluginYourGames\Scripts\Basic\GameReadyAPI.cs" />
     <Compile Include="Assets\Scripts\DifficultyState.cs" />
-    <Compile Include="Assets\PluginYourGames\Modules\Clipboard\Scripts\Clipboard_yandexPlatform.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Storage\Scripts\Storage_yg.cs" />
+    <Compile Include="Assets\PluginYourGames\Modules\Clipboard\Scripts\Clipboard_yandexPlatform.cs" />
     <Compile Include="Assets\Scripts\IArrangable.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Payments\Scripts\Payments_lang.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Flags\Example\Scripts\FlagsExample.cs" />
@@ -266,6 +266,7 @@
     <Compile Include="Assets\PluginYourGames\Modules\Metrica\Scripts\JsonUtils.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Storage\Example\Scripts\SaverTest.cs" />
     <Compile Include="Assets\PluginYourGames\Scripts\Basic\InitAttributes.cs" />
+    <Compile Include="Assets\Scripts\UI\ButtonAdvertisingActivater.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\InterstitialAdv\Scripts\InterAdv_yg.cs" />
     <Compile Include="Assets\Scripts\Factory.cs" />
@@ -319,11 +320,11 @@
     <Compile Include="Assets\PluginYourGames\Scripts\Platform\CommonOptions.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\GameLabel\Scripts\GameLabelYG.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Storage\Scripts\Storage_projectSettings.cs" />
-    <Compile Include="Assets\PluginYourGames\Modules\Storage\Scripts\SavesYG2.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Localization\Scripts\Lang_interface.cs" />
     <Compile Include="Assets\Scripts\UI\BaseMenuButton.cs" />
     <Compile Include="Assets\PluginYourGames\Scripts\EditorScr\Module.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\RedefinePlayerPrefs\Scripts\SavesYG2.cs" />
+    <Compile Include="Assets\PluginYourGames\Modules\Storage\Scripts\SavesYG2.cs" />
     <Compile Include="Assets\Scripts\UI\ReturnGameSessionButton.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Authorization\Scripts\Auth_yandexPlatform.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Clipboard\Example\Scripts\ClipboardExample.cs" />

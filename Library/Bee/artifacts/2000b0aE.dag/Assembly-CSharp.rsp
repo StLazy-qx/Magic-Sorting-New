@@ -638,6 +638,7 @@
 "Assets/Scripts/Store/Item.cs"
 "Assets/Scripts/Store/ItemPriceUIText.cs"
 "Assets/Scripts/UI/BaseMenuButton.cs"
+"Assets/Scripts/UI/ButtonAdvertisingActivater.cs"
 "Assets/Scripts/UI/ButtonNewRoundBeginner.cs"
 "Assets/Scripts/UI/CanvasMobileSetter.cs"
 "Assets/Scripts/UI/CanvasPCSetter.cs"
