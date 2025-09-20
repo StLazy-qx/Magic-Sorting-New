@@ -103,6 +103,7 @@
     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Leaderboards\Example\Scripts\LBExample.cs" />
     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+    <Compile Include="Assets\Scripts\EntryPoint\IObjectInitilizable.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Storage\Example\Scripts\SavesDataExample.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\AutoTranslateLangs\Scripts\GraphicSettingsYG.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\RedefinePlayerPrefs\Scripts\RedefinePlayerPrefs.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Leaderboards\Scripts\LB_interface.cs" />
     <Compile Include="Assets\Scripts\ListStoreItems.cs" />
+    <Compile Include="Assets\Scripts\MagicCellsStackHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Review\Scripts\Review_yg.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
@@ -230,6 +232,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\PluginYourGames\Scripts\EditorScr\PrefsList.cs" />
     <Compile Include="Assets\PluginYourGames\Scripts\InfoYG\InfoYGReferences.cs" />
+    <Compile Include="Assets\Scripts\IFactory.cs" />
     <Compile Include="Assets\PluginYourGames\Example\Scripts\CanvasScaleForMobile.cs" />
     <Compile Include="Assets\PluginYourGames\Scripts\Basic\GameReadyAPI.cs" />
     <Compile Include="Assets\Scripts\DifficultyState.cs" />
@@ -265,8 +268,8 @@
     <Compile Include="Assets\PluginYourGames\Modules\OpenURL\Scripts\AllGamesYG.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Metrica\Scripts\JsonUtils.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Storage\Example\Scripts\SaverTest.cs" />
-    <Compile Include="Assets\PluginYourGames\Scripts\Basic\InitAttributes.cs" />
     <Compile Include="Assets\Scripts\UI\ButtonAdvertisingActivater.cs" />
+    <Compile Include="Assets\PluginYourGames\Scripts\Basic\InitAttributes.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\InterstitialAdv\Scripts\InterAdv_yg.cs" />
     <Compile Include="Assets\Scripts\Factory.cs" />
@@ -298,7 +301,9 @@
     <Compile Include="Assets\Scripts\MagicCell.cs" />
     <Compile Include="Assets\Scripts\Player\Wallet.cs" />
     <Compile Include="Assets\Scripts\Liquid.cs" />
+    <Compile Include="Assets\Scripts\MagicCellsFactory.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\RewardedAdv\Scripts\RewardedAdv_optionalPlatform.cs" />
+    <Compile Include="Assets\Scripts\UI\LanguageSetter.cs" />
     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\PlayerStats\Scripts\PlayerStats_interface.cs" />
     <Compile Include="Assets\PluginYourGames\Modules\Fullscreen\Scripts\Fullscreen_yandexPlatform.cs" />

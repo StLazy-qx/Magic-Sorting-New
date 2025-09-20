@@ -1,4 +1,4 @@
-using UnityEngine;
+using System;
 using Zenject;
 
 public class DifficultyState : IInitializable
@@ -6,9 +6,15 @@ public class DifficultyState : IInitializable
     public DifficultyLevel CurrentDifficulty { get; private set; } =
         DifficultyLevel.Easy;
 
+    public event Action<DifficultyLevel> DifficultyChanged;
+
     public void SetDifficulty(DifficultyLevel level)
     {
-        CurrentDifficulty  = level;
+        if (CurrentDifficulty == level)
+            return;
+
+        CurrentDifficulty = level;
+        DifficultyChanged?.Invoke(level);
     }
 
     public void Initialize() {}

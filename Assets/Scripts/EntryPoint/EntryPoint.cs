@@ -1,18 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using YG;
 
 public class EntryPoint : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private CanvasMobileSetter _mobileSetter;
+    [SerializeField] private CanvasPCSetter _PCSetter; // поменять название
+    [SerializeField] private LanguageSetter _languageSetter;
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        
+        _mobileSetter.Disable();
+        _PCSetter.Disable();
+
+        if (YG2.envir.isMobile)
+        {
+            _mobileSetter.Enable();
+        }
+        else
+        {
+            _PCSetter.Enable();
+        }
     }
 }

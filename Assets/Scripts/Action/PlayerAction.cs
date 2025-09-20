@@ -15,7 +15,7 @@ public class PlayerAction : MonoBehaviour
     {
         if (_columnsFactory != null)
         {
-            _columnsFactory.ColumnsListChanged += OnColumnsListChanged;
+            _columnsFactory.ListObjectsChanged += OnColumnsListChanged;
         }
     }
 
@@ -23,7 +23,7 @@ public class PlayerAction : MonoBehaviour
     {
         if (_columnsFactory != null)
         {
-            _columnsFactory.ColumnsListChanged -= OnColumnsListChanged;
+            _columnsFactory.ListObjectsChanged -= OnColumnsListChanged;
         }
     }
 

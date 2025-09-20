@@ -170,8 +170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _internalVolume: {fileID: 2046337394504808651}
-  _liquid: {fileID: 6581575307977064920}
-  _maxSize: 2
 --- !u!114 &1986328781122104400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,7 +182,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef069293fa266c845acd4fe45d6fa2dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _liquid: {fileID: 0}
+  _liquid: {fileID: 6581575307977064920}
+  _maxSize: 0
+  _points: 0
 --- !u!114 &3537928685127232776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6839e84b2f8827044a0d4e403ac93741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _colorRandomizer: {fileID: 7565454626128862661}
   _vessel: {fileID: 1986328781122104400}
   _flag: {fileID: 2898227338692044394}
 --- !u!114 &7565454626128862661

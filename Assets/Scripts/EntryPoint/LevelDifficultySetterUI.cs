@@ -14,8 +14,6 @@ public class LevelDifficultySetterUI : MonoBehaviour
     private Button _selectedButton;
     private Color _defaultColorButton;
 
-    public event Action<DifficultyLevel> LevelDifficultyChanged;
-
     private void Awake()
     {
         if (_easyLevelButton != null)
@@ -24,38 +22,33 @@ public class LevelDifficultySetterUI : MonoBehaviour
 
     private void OnEnable()
     {
-        //_easyLevelButton.onClick.AddListener(() =>
-        //{
-        //    if (_difficultyState != null)
-        //        SelectDifficulty(DifficultyLevel.Easy);
-        //});
-
-        _easyLevelButton.onClick.AddListener(() =>
-        SelectDifficulty(DifficultyLevel.Easy));
+        _easyLevelButton.onClick.AddListener(() => 
+        _difficultyState.SetDifficulty(DifficultyLevel.Easy));
         _middleLevelButton.onClick.AddListener(() => 
-        SelectDifficulty(DifficultyLevel.Medium));
+        _difficultyState.SetDifficulty(DifficultyLevel.Medium));
         _hardLevelButton.onClick.AddListener(() => 
-        SelectDifficulty(DifficultyLevel.Hard));
+        _difficultyState.SetDifficulty(DifficultyLevel.Hard));
 
-        //HighlightButton(_easyLevelButton);
-        SelectDifficulty(_difficultyState.CurrentDifficulty);
+
+        _difficultyState.DifficultyChanged += OnDifficultyChanged;
     }
 
     private void OnDisable()
     {
-        _easyLevelButton.onClick.RemoveListener(() => 
-        SelectDifficulty(DifficultyLevel.Easy));
-        _middleLevelButton.onClick.RemoveListener(() => 
-        SelectDifficulty(DifficultyLevel.Medium));
-        _hardLevelButton.onClick.RemoveListener(() => 
-        SelectDifficulty(DifficultyLevel.Hard));
+        _easyLevelButton.onClick.RemoveListener(() =>
+        _difficultyState.SetDifficulty(DifficultyLevel.Easy));
+        _middleLevelButton.onClick.RemoveListener(() =>
+        _difficultyState.SetDifficulty(DifficultyLevel.Medium));
+        _hardLevelButton.onClick.RemoveListener(() =>
+        _difficultyState.SetDifficulty(DifficultyLevel.Hard));
+
+        _difficultyState.DifficultyChanged -= OnDifficultyChanged;
     }
 
     [Inject]
     public void Construct(DifficultyState state)
     {
         _difficultyState = state;
-        //_difficultyState.SetDifficulty(DifficultyLevel.Easy);
     }
 
     public DifficultyLevel Increase(DifficultyLevel currentLevel)
@@ -71,20 +64,18 @@ public class LevelDifficultySetterUI : MonoBehaviour
                 newLevel = DifficultyLevel.Hard;
                 break;
             case DifficultyLevel.Hard:
-                newLevel = DifficultyLevel.Hard; // дальше некуда
+                newLevel = DifficultyLevel.Hard; // дальше только изменение количества игровых объектов
                 break;
         }
 
         if (newLevel != currentLevel)
-            SelectDifficulty(newLevel);
+            _difficultyState.SetDifficulty(newLevel);
 
         return newLevel;
     }
 
-    private void SelectDifficulty(DifficultyLevel level)
+    private void OnDifficultyChanged(DifficultyLevel level)
     {
-        _difficultyState.SetDifficulty(level);
-
         switch (level)
         {
             case DifficultyLevel.Easy:
@@ -98,6 +89,24 @@ public class LevelDifficultySetterUI : MonoBehaviour
                 break;
         }
     }
+
+    //private void SelectDifficulty(DifficultyLevel level)
+    //{
+    //    _difficultyState.SetDifficulty(level);
+
+    //    switch (level)
+    //    {
+    //        case DifficultyLevel.Easy:
+    //            HighlightButton(_easyLevelButton);
+    //            break;
+    //        case DifficultyLevel.Medium:
+    //            HighlightButton(_middleLevelButton);
+    //            break;
+    //        case DifficultyLevel.Hard:
+    //            HighlightButton(_hardLevelButton);
+    //            break;
+    //    }
+    //}
 
     private void HighlightButton(Button button)
     {

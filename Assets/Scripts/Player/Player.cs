@@ -10,10 +10,21 @@ public class Player : MonoBehaviour
     private Wallet _wallet;
 
     public Wallet PlayerWallet => _wallet;
+    public int TableScore { get; private set; }
 
     private void Awake()
     {
         _materialInstance = _meshRenderer.material;
+    }
+
+    private void OnEnable()
+    {
+        _wallet.TableScoreChanged += AddPoints;
+    }
+
+    private void OnDisable()
+    {
+        _wallet.TableScoreChanged -= AddPoints;
     }
 
     [Inject]
@@ -29,5 +40,13 @@ public class Player : MonoBehaviour
 
         _currentTexture = texture;
         _materialInstance.SetTexture("_MainTex", _currentTexture);
+    }
+
+    private void AddPoints(int value)
+    {
+        if (value <= 0)
+            return;
+
+        TableScore += value;
     }
 }

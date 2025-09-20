@@ -11,6 +11,7 @@ public class Wallet
 
     public event Action<int> CurrentScoreChanged;
     public event Action<int> TotalScoreChanged;
+    public event Action<int> TableScoreChanged;
 
     private Wallet()
     {
@@ -41,6 +42,7 @@ public class Wallet
 
         TotalScoreChanged?.Invoke(_confirmedScore);
         CurrentScoreChanged?.Invoke(_currentScore);
+        TableScoreChanged?.Invoke(_currentScore);
     }
 
     public void Reset()

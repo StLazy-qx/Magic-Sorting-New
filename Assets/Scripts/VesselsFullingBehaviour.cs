@@ -37,12 +37,8 @@ public class VesselsFullingBehaviour : MonoBehaviour
 
         _veselsCount++;
 
-        Debug.Log(_veselsCount);
-
         if (_veselsCount == _vessels.Count)
         {
-            Debug.Log(_veselsCount == _vessels.Count);
-
             _wallet.ConfirmPoints();
             _gamePanel.Close();
             _finalGame.ActivateFinalPanelAndPauseGame();

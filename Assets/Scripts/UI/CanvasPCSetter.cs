@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CanvasPCSetter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public bool IsActive => gameObject.activeSelf;
+
+    public void Enable()
     {
-        
+        gameObject.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Disable()
     {
-        
+        gameObject.SetActive(false);
     }
 }
